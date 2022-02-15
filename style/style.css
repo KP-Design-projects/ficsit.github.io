@@ -1,0 +1,458 @@
+/*Essentials*/
+body {margin: 0; text-emphasis: none; text-size-adjust:15px ; text-justify: auto; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+  #size-images{width: 250px; height: 70px; align-items: center;}
+  #style2{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+  #style1{
+      color: white;
+  }
+.navbar-toggler{margin-top: 20px; background-color: whitesmoke;}
+.space{
+    line-height: 10em;
+}
+.space2{
+    line-height: 5em;
+}
+hr.solid {
+    border-top: 3px solid rgb(30, 39, 65);
+    width:500px;
+  }
+
+hr.solid2 {
+    border-top: 3px solid rgb(243, 243, 243);
+    width:500px;
+  }
+  
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+  
+.img-thumbnail{width:150px;}
+
+/*Initial banner*/
+.banner{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-top: 0px;
+    border-radius: 0;
+    color: #fff;
+    }
+
+#call-us{
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 15px ;
+    background-color: #EF6F6C;
+    color: white;
+    border-radius: 30px;
+    float: left;
+    
+}
+
+#call-us:hover, #book-a-repair:hover, #work-with-us:hover{
+    opacity: 0.7;
+}
+
+#tlf-number{
+    text-align: center;
+}
+
+#book-a-repair{
+    float: right;
+    width: 150px ;
+    padding: auto;
+    margin-top: 10px;
+    margin-right: 20px ;
+    background-color: #EF6F6C;
+    color: white;
+    border-radius: 40px;
+}
+
+
+#booking{
+    text-align: center;
+    padding: 2px;
+    margin:2px;
+}
+
+#rss{
+    float: right;
+    height: 30px;
+}
+
+/*Menu*/
+
+
+
+#menu-block {
+    margin-top: 1.5em;
+}
+
+#menu-items{
+    margin: 0 20px 0 100px;
+}
+
+#menu-items:hover {
+    
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    background-color: #EF6F6C;
+}
+
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #232C33;
+    color: white;
+    display: inline-block;
+    
+}
+
+.menu-logo{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left:50px;
+}
+
+.menu-logo:hover {
+    opacity: 0.7;
+}
+
+.navbar-toggler{
+    background-color: #EF6F6C;
+    padding: 5px;
+    width: fit-content;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler,  .navbar-toggler-icon {
+      background: #EF6F6C;
+      
+    }
+    .collapse{
+        background-color: #ef6e6c70;
+        width: auto;
+        border: 2px solid #ffff;
+        border-radius: 15px;
+        padding-right: 70px;
+        margin-top: 15px;
+        z-index: 10;
+    }
+    #block-1-h1{
+        margin-top: 100px;
+    }
+}
+#work-with-us{
+    float: right;
+    padding: 5px;
+    margin-top: 25px;
+    margin-right: 20px ;
+    background-color: #EF6F6C;
+    color: white;
+    border-radius: 40px;
+}
+
+#work{
+    padding:0;
+    margin:0;
+}
+
+/*Hero Page*/
+
+.hero-style{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.795)), url(https://greenappliancerepairs.co.uk/assets/images/services/integrated-appliance-repair-service.jpg);
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+}
+
+#block-1{
+    float: left;
+    color: white;
+    margin: 100px 0px 0px 80px;
+}
+#block-1-h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#block-1-h3{
+    font-size: 20px;
+}
+
+#block-2{
+    float: right;
+    color: white;
+    margin: 100px 200px 0px 80px;
+    font-size: 25px;
+}
+
+#block-1-button{
+background-color: #f37878; 
+border: none;
+border-radius: 40px;
+color: white;
+padding: 8px;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+margin-right: 15px ;
+}
+
+#block-1-button:hover{
+background-color: #f37878; 
+border: none;
+border-radius: 40px;
+color: white;
+padding: 8px;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+margin-right: 15px;
+opacity: 0.8;
+}
+
+#block-1-button2{
+    background-color: #f3787825;
+    border-style:solid;
+    border-radius: 40px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px ;
+}
+
+#block-1-button2:hover{
+    background-color: #ffffff73;
+    border-style:solid;
+    border-radius: 40px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px ;
+        opacity: 0.8;
+}
+
+
+
+
+
+
+
+/*Start to write content in the hompage*/
+
+/*Dividers*/
+.shape{
+    background: white;
+    position: relative;
+}
+
+.shape::after, .shape::before{
+    position:absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: white;
+    bottom: -1em;
+    z-index: 100;
+}
+
+.shape::before{
+    right:50%;
+    transform: skew(0, 20deg);
+}
+
+.shape::after{
+    left:50%;
+    transform: skew(0, -20deg);
+}
+
+/*sectors*/
+
+#box{
+    width: 100%;
+    height: 175vh;
+    background: #232C33;
+}
+
+#box1{
+    width: 100%;
+    height: 50vh;
+    background: white;
+}
+#box3{
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+#box2{
+    float: right;
+    margin-right: 5em;
+}
+#box4{
+    width: 100%;
+    height: 50vh;
+    background: #232C33;
+}
+
+.banner2{
+    width: 100%;
+    height: 40px;
+    background-color: #274969f3;
+    color: white;
+    padding: 5px;   
+}
+
+
+#section{
+    height: 100vh;
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(https://mobilemobileorlando.com/wp-content/uploads/2020/12/phone-repair-mobilemobileorlando-Same-Day-Repair-icon2.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+   background-image: url(https://cdn1.iconfinder.com/data/icons/all-purpose/45/Tools-512.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+   background-image: url(https://icons-for-free.com/iconfiles/png/512/out+coins+hand+loan+loan+money+money+icon-1320167739040648326.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+
+/*Footer*/
+
+.footer-copyright{
+    background: black;
+    color: white;
+}
+.page-footer{
+    background: black;
+    color: white;
+}
+
+
+/* Btn success customize */
+
+#quote-p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#get-a-quote{
+    background-color: #EF6F6C;
+    border-radius: 20px;
+    padding: 10px 30px 0px 30px;
+    border: rgb(80, 76, 76) 2px solid;
+}
+#get-a-quote:hover {
+    background-color: #fff;
+    border: rgb(202, 117, 117) 2px solid;
+    transition:1s;
+    color: #EF6F6C;
+}
+
+/*Animated-icons*/
+
+.brands-animated{
+    opacity:0.3;
+}
+
+.brands-animated:hover{
+    opacity:1;
+    transition: 1s;
+
+}
+
+@media (max-width: 768px) {
+    .animated-icons, .col-sm{
+        margin: 10px;
+        align-items: center;
+    }
+    #section-services{
+        
+        font-size: small;
+        width: 100%;
+        margin-top: 20px;
+       margin-left: 100px;
+    }
+    #fit-image{
+        margin-left: 45px; 
+    }
+}
